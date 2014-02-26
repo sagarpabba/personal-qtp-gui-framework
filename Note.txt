@@ -1,0 +1,22 @@
+session online meeting:
+
+session one:
+1,PAF framework overview;
+2,PAF Test data management;
+3,PAF email report generation;
+4,Recovery scenarios;
+5,Other third party tools used in PAF;
+
+Session two:
+1,PAF test suite management from ALM;
+2,PAF Smoke testing execution from ALM and scheduler;
+3,PAF script manitance;
+4,Q&A;
+
+
+
+
+Shi, Wen (Steven, TS R&D) <wen.shi@hp.com>
+
+Yang, Bin (Joe, TS R&D) <bin.yang5@hp.com>
+Dolan, Liam <liam.dolan@hp.com>

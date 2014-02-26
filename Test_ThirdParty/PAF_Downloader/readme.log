@@ -1,0 +1,15 @@
+the command can be run like blow:  (you must specified at less one valid parameter to download the assessment ID ) 
+
+
+java -jar PAFDownloader.jar 55640 ( the last parameter is the assessment run ID);
+
+there are 4 parameters for this utility tool,
+the first parameter can be like this : java -jar PAFDownloader.jar  -downloaddir "C:\Users\Desktop\PAF_Automation_QTP\Test_ThirdParty\PAF_Downloader"  55640
+the second parameter can be like this : java -jar PAFDownloader.jar  -type it1  55640 ( which specified the PAF environment you need to run this download process);
+the third and fourth parameters can be like this : java -jar PAFDownloader.jar  -username tester -password  55640 (which specified the user credential to log in PAF interface);
+
+
+by default parameter :
+-type :  The download process will be run in ITG1 environemnt;
+-downloaddir  :  It will download in this location:C:\PAF_Run_Result;
+-username  -password:   It will use this  default credentail :chang-yuan.hu@hp.com;

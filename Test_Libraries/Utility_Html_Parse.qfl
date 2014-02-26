@@ -1,0 +1,31 @@
+
+Dim objHtmlDoc
+Sub parse_HtmlDocument(strHtmlFile)
+    Set objHtmlDoc=CreateObject("htmlfile")
+    objHtmlDoc.write strHtmlFile
+    
+End Sub
+
+Function parse_GetElementById(strElementID)
+      objHtmlDoc.getElementById(strElementID)
+      
+End Function
+
+Function parse_GetElementByTagName(strTagName)
+
+   objHtmlDoc.getElementsByTagName(strTagName)
+End Function
+
+Function parse_GetBodyText()
+     objHtmlDoc
+End Function
+Function getURL(sURL)
+	  Dim oHTTP : Set oHTTP = CreateObject("Msxml2.XMLHTTP")
+	  oHTTP.Open "GET", csURL, False
+	  oHTTP.Send
+	  If 200 = oHTTP.Status Then
+	     getURL = oHTTP.responseText
+	  Else
+	     ' handle error
+  End If
+End Function ' getURL
