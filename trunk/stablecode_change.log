@@ -1,0 +1,47 @@
+'*****************************************Stable code can be checked out***********************************************************************
+201312223 Alter.hu:
+                revision 114:
+				                    1) Change the email's subject to the correct time;
+									2) Add more detail in the email content;
+									3) Support the execution result history panel;
+									4) Change the customer page and download page to adapter more execeptions;
+
+20131204 Alter.hu:
+                 revision 88: Modify the rule check compare code ,this should be the stable code for rule check .
+				                     1) the rule check will wait the page loading correctly ,the whole rule check will take 10 minutes .
+									 
+				                    
+20131202 Alter.hu:
+                 revision 86: change the code using the email's subject from the excel data;
+				                     1) collection some ITG2 device data for the ITG2 environment;
+									 2) change the rule check script error last week , the importsheet error caused by import the sheet twice;
+									 3)clear all the unnecessary resources from the execution host;
+									 4) add the ITG2 data for the system health check;
+									 
+20131127 Alter.hu:
+                 revision 76: make the code adapter to different environment ,like ITG1 ,FUT1
+				                     1) Manage different environments data from the testdata.xls file ;
+									 
+
+
+20131122 Alter.hu :
+                  reversion 70 : including these features :--
+				                          1) system health check ,latest udpate;
+										  2) practive scan ,latest update code ;
+										  3) rule check ,latest stable code ;
+'Reversion 29 : Supported one device uploaded;
+'Reversion 35 : Supported  7 devices for testing;										  
+										  
+
+
+
+'**********************************SVN Stable Reversion can be used*********************************************
+
+'**********************************others links*********************************************
+how to run the email reporter
+1, copy the jar file to the execution host ;
+2,copy the test result template file to the execution host,cannot change the file name;
+3,generate the test report ,the report file name is :c:\temp\reporter.log;
+4,parser the report contents and generate the email ,then send the email;
+5, QTP with IE10:
+http://relevantcodes.com/qtpuft-11-5-patches/
